@@ -74,7 +74,7 @@ const Projects = () => {
           {/* ROW 1 */}
 
           <div
-            className='flex justify-center text-center items-center p-10 bg-git
+            className='flex justify-center text-center items-center p-10 bg-blue
             max-w-[400px] max-h-[400px] text-8xl font-arial font-semibold'>
             <a
               className='hover opacity-100 transition duration-500'
@@ -101,7 +101,7 @@ const Projects = () => {
               href='https://github.com/IgorCastilhos/QR-code-component'
               target='_blank'
               rel='noreferrer'>
-              <img src='../assets/Qr-Code-Card.png' alt='github-link' />
+              <img src='../assets/QRCode.png' alt='github-link' />
             </a>
           </div>
 
@@ -120,7 +120,11 @@ const Projects = () => {
             </a>
           </div>
 
-          <Project title='Website' />
+          <div
+            className='flex justify-center text-center items-center p-10 bg-redd
+            max-w-[400px] max-h-[400px]'>
+            <img src='../assets/Coffee.png' alt='github-link' />
+          </div>
 
           <div className='flex justify-center text-center max-w-[400px] max-h-[400px]'>
             <a
@@ -155,7 +159,7 @@ const Projects = () => {
           </div>
 
           <div
-            className='flex justify-center text-center items-center p-10 bg-pink
+            className='flex justify-center text-center items-center p-10 bg-yellow
               max-w-[400px] max-h-[400px] text-7xl font-arial font-semibold'>
             <a
               className='hover opacity-100 transition duration-500'

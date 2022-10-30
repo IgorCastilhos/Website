@@ -15,6 +15,7 @@ module.exports = {
         uni: '#3b246c',
         pink: '#d8b4fe',
         git: '#e5e5e5',
+        cof: '#ae2543',
         'deep-blue': '#010026',
         'dark-grey': '#757575',
         'opaque-black': 'rgba(0,0,0,0.35)',
