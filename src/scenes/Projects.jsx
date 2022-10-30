@@ -23,7 +23,7 @@ const Project = ({ title }) => {
       <div className={overlayStyles}>
         <p className='text-2xl font-playfair'>{title}</p>
       </div>
-      <img src={`../assets/${projectTitle}.jpeg`} alt={projectTitle} />
+      <img src={`../assets/${projectTitle}.png`} alt={projectTitle} />
     </motion.div>
   );
 };
@@ -53,7 +53,13 @@ const Projects = () => {
 
         <p className='mt-10 mb-10'>
           Todos estes projetos podem ser encontrados no meu{' '}
-          <a href='https://github.com/IgorCastilhos'>Github</a>
+          <a
+            href='https://github.com/IgorCastilhos'
+            target='_blank'
+            rel='noreferrer'>
+            {' '}
+            <span className='text-blue'>Github</span>
+          </a>
         </p>
       </motion.div>
 
@@ -66,6 +72,7 @@ const Projects = () => {
           whileInView='visible'
           viewport={{ once: true, amount: 0.2 }}>
           {/* ROW 1 */}
+
           <div
             className='flex justify-center text-center items-center p-10 bg-git
             max-w-[400px] max-h-[400px] text-8xl font-arial font-semibold'>
@@ -77,27 +84,19 @@ const Projects = () => {
               <img src='../assets/GitHubBig.png' alt='github-link' />
             </a>
           </div>
-          <Project title='Glowing Icons' />
-          <Project title='QR Code Card' />
+          <Project title='Glowing-Icons' />
+          <Project title='QR-Code-Card' />
 
           {/* ROW 2 */}
-          <Project title='Employee Registration' />
 
-          <div
-            className='flex justify-center text-center items-center p-10 bg-blue
-              max-w-[400px] max-h-[400px] text-9xl font-arial font-semibold'>
-            <a
-              className='hover opacity-100 transition duration-500'
-              href='mailto:igorcastilhos2010@hotmail.com'
-              rel='noreferrer'>
-              <img src='../assets/outlook.png' alt='email-link' />
-            </a>
-          </div>
+          <Project title='Employee Registration' />
+          <Project title='Website' />
 
           <Project title='Calculator' />
 
           {/* ROW 3 */}
-          <Project title='Carousel Review' />
+
+          <Project title='CarouselReview' />
           <Project title='NFT Preview Card' />
           <div
             className='flex justify-center text-center items-center p-10 bg-pink

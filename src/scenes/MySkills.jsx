@@ -24,8 +24,7 @@ const MySkills = () => {
           </p>
           <LineGradient width='w-1/2' />
           <p className='mt-10 mb-7'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Error,
-            eligendi!
+            Falando um pouco sobre as minhas Soft Skills
           </p>
         </motion.div>
 
@@ -73,8 +72,8 @@ const MySkills = () => {
             <div className='w-1/2 md:w-3/4 h-32 bg-blue absolute right-0 top-0 z-[-1]' />
           </div>
           <p className='mt-5'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
-            dignissimos, debitis quisquam nisi necessitatibus aut.
+            Profissional que transmite mensagens objetivamente, aumentando a
+            performance e o alcance da comunicação.
           </p>
         </motion.div>
 
@@ -99,8 +98,8 @@ const MySkills = () => {
             <div className='w-1/2 md:w-3/4 h-32 bg-redd absolute right-0 top-0 z-[-1]' />
           </div>
           <p className='mt-5'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
-            dignissimos, debitis quisquam nisi necessitatibus aut.
+            Movido a inovação, busco sempre aprender e integrar novas dinâmicas
+            que possam ajudar o time a desempenhar de forma mais eficiente
           </p>
         </motion.div>
 
@@ -125,8 +124,8 @@ const MySkills = () => {
             <div className='w-1/2 md:w-3/4 h-32 bg-yellow absolute right-0 top-0 z-[-1]' />
           </div>
           <p className='mt-5'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
-            dignissimos, debitis quisquam nisi necessitatibus aut.
+            Meu objetivo é atuar na criação de aplicações que possam melhorar
+            continuamente a vida das pessoas
           </p>
         </motion.div>
       </div>
