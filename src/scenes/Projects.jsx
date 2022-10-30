@@ -84,20 +84,76 @@ const Projects = () => {
               <img src='../assets/GitHubBig.png' alt='github-link' />
             </a>
           </div>
-          <Project title='Glowing-Icons' />
-          <Project title='QR-Code-Card' />
+
+          <div className='flex justify-center text-center max-w-[400px] max-h-[400px]'>
+            <a
+              className='hover opacity-100 transition duration-500'
+              href='https://github.com/IgorCastilhos/Glowing-Icons'
+              target='_blank'
+              rel='noreferrer'>
+              <img src='../assets/Glowing-Icons.png' alt='github-link' />
+            </a>
+          </div>
+
+          <div className='flex justify-center text-center max-w-[400px] max-h-[400px]'>
+            <a
+              className='hover opacity-100 transition duration-500'
+              href='https://github.com/IgorCastilhos/QR-code-component'
+              target='_blank'
+              rel='noreferrer'>
+              <img src='../assets/Qr-Code-Card.png' alt='github-link' />
+            </a>
+          </div>
 
           {/* ROW 2 */}
 
-          <Project title='Employee Registration' />
+          <div className='flex justify-center text-center max-w-[400px] max-h-[400px]'>
+            <a
+              className='hover opacity-100 transition duration-500'
+              href='https://github.com/IgorCastilhos/CRUD-Cadastro-de-Colaborador'
+              target='_blank'
+              rel='noreferrer'>
+              <img
+                src='../assets/Employee-Registration.png'
+                alt='github-link'
+              />
+            </a>
+          </div>
+
           <Project title='Website' />
 
-          <Project title='Calculator' />
+          <div className='flex justify-center text-center max-w-[400px] max-h-[400px]'>
+            <a
+              className='hover opacity-100 transition duration-500'
+              href='https://github.com/IgorCastilhos/Calculadora'
+              target='_blank'
+              rel='noreferrer'>
+              <img src='../assets/Calculator.png' alt='github-link' />
+            </a>
+          </div>
 
           {/* ROW 3 */}
 
-          <Project title='CarouselReview' />
-          <Project title='NFT Preview Card' />
+          <div className='flex justify-center text-center max-w-[400px] max-h-[400px]'>
+            <a
+              className='hover opacity-100 transition duration-500'
+              href='https://github.com/IgorCastilhos/Carrosel-de-Reviews'
+              target='_blank'
+              rel='noreferrer'>
+              <img src='../assets/CarouselReview.png' alt='github-link' />
+            </a>
+          </div>
+
+          <div className='flex justify-center text-center max-w-[400px] max-h-[400px]'>
+            <a
+              className='hover opacity-100 transition duration-500'
+              href='https://github.com/IgorCastilhos/NFT-Preview-Card'
+              target='_blank'
+              rel='noreferrer'>
+              <img src='../assets/NFT-Preview-Card.png' alt='github-link' />
+            </a>
+          </div>
+
           <div
             className='flex justify-center text-center items-center p-10 bg-pink
               max-w-[400px] max-h-[400px] text-7xl font-arial font-semibold'>
