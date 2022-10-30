@@ -67,10 +67,10 @@ const Projects = () => {
           viewport={{ once: true, amount: 0.2 }}>
           {/* ROW 1 */}
           <div
-            className='flex justify-center text-center items-center p-10 bg-blue
+            className='flex justify-center text-center items-center p-10 bg-git
             max-w-[400px] max-h-[400px] text-8xl font-arial font-semibold'>
             <a
-              className='hover opacity-50 transition duration-500'
+              className='hover opacity-100 transition duration-500'
               href='https://github.com/IgorCastilhos'
               target='_blank'
               rel='noreferrer'>
@@ -84,10 +84,10 @@ const Projects = () => {
           <Project title='Employee Registration' />
 
           <div
-            className='flex justify-center text-center items-center p-10 bg-black
+            className='flex justify-center text-center items-center p-10 bg-blue
               max-w-[400px] max-h-[400px] text-9xl font-arial font-semibold'>
             <a
-              className='hover opacity-50 transition duration-500'
+              className='hover opacity-100 transition duration-500'
               href='mailto:igorcastilhos2010@hotmail.com'
               rel='noreferrer'>
               <img src='../assets/outlook.png' alt='email-link' />
@@ -100,9 +100,15 @@ const Projects = () => {
           <Project title='Carousel Review' />
           <Project title='NFT Preview Card' />
           <div
-            className='flex justify-center text-center items-center p-10 bg-yellow
+            className='flex justify-center text-center items-center p-10 bg-pink
               max-w-[400px] max-h-[400px] text-7xl font-arial font-semibold'>
-            x
+            <a
+              className='hover opacity-100 transition duration-500'
+              href='https://www.instagram.com/igor_paprocki_dev/'
+              target='_blank'
+              rel='noreferrer'>
+              <img src='../assets/instagrambig.png' alt='instagram-link' />
+            </a>
           </div>
         </motion.div>
       </div>

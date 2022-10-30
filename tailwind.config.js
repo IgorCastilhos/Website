@@ -13,6 +13,8 @@ module.exports = {
         purple: '#8257e5',
         bank: '#000065',
         uni: '#3b246c',
+        pink: '#d8b4fe',
+        git: '#e5e5e5',
         'deep-blue': '#010026',
         'dark-grey': '#757575',
         'opaque-black': 'rgba(0,0,0,0.35)',

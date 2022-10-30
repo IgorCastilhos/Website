@@ -20,7 +20,7 @@ const Link = ({ page, selectedPage, setSelectedPage }) => {
 const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
   const [isMenuToggled, setIsMenuToggled] = useState(false); // This state will represent when we are on a mobile screen only and is gonna check if we clicked on the menu, which will pop-up the menu vs when it's not toggled
   const isAboveSmallScreens = useMediaQuery('(min-width: 768px)');
-  const navbarBackground = isTopOfPage ? '' : 'bg-red';
+  const navbarBackground = isTopOfPage ? '' : 'bg-blue';
 
   return (
     <nav className={`${navbarBackground} z-40 w-full fixed top-0 py-6`}>
@@ -30,7 +30,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
 
         {/* DESKTOP NAV */}
         {isAboveSmallScreens ? (
-          <div className='flex justify-between gap-16 font-opensans text-sm font-semibold'>
+          <div className='flex justify-between gap-16 font-open-sans text-sm font-semibold'>
             <Link
               page='Home'
               selectedPage={selectedPage}
