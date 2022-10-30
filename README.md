@@ -10,11 +10,11 @@ utilizadas para a criação do site, estão: ReactJS, HTML, CSS, Tailwind CSS, F
 
 Conceitos usados no projeto:
 
--assets(contendo as imagens do projeto)<br>
+-assets (contendo as imagens do projeto)<br>
 -div<br>
 -className<br>
--${}(Template strings)<br>
--<a>(Link tags)<br>
+-${} (Template strings)<br>
+-a (Link tags)<br>
 -addEventListener<br>
 -removeEventListener<br>
 -window object<br>
