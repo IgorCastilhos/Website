@@ -55,8 +55,7 @@ const Landing = ({ setSelectedPage }) => {
           </p>
 
           <p className='mt-14 mb-7 text-sm text-center md:text-start'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet,
-            ut.
+            Programador Front-End - React JS | Node JS | Tailwind CSS
           </p>
         </motion.div>
 
